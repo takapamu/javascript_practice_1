@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>jquery総括</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/colorbox.css">
+<link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+<div id="wrapper">
+    <div class="gnavi">
+        <p class="btn-gnavi">
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+        <nav class="menu-gnavi">
+            <ul class="menu">
+                <li><a href="#section01">TOP</a></li>
+                <li><a href="#section02">ABOUT</a></li>
+                <li><a href="#section03">SCENE</a></li>
+                <li><a href="#section04">RECOMMEND</a></li>
+                <li><a href="#section05">TOKYO STATION</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contents">
+        <section id="section01">
+            <div class="section-inner">
+                <h2>TOKYO</h2>
+            </div>
+        </section>
+        <section id="section02">
+            <div class="section-inner">
+                <h2>ABOUT</h2>
+                <p>東京の人口はおよそ1400万人です。これは日本の都道府県の中では人口が最も多く、日本の人口の10%以上を占めています。</p>
+            </div>
+        </section>
+        <section id="section03">
+            <div class="section-inner">
+                <h2>SCENE</h2>
+                <div class="slider">
+                    <ul class="slider-inner"></ul>
+                    <ul class="nav"></ul>
+                    <p id="arrow-prev" class="arrow">←</p>
+                    <p id="arrow-next" class="arrow">→</p>
+                </div>
+            </div>
+        </section>
+        <section id="section04">
+            <div class="section-inner">
+                <h2>RECOMMEND</h2>
+                <ul>
+                    <li><a class="popup" href="http://www.youtube.com/embed/Dk2Knub75MQ?rel=0&amp;wmode=transparent"><img src="images/recommend/img01.jpg"></a></li>
+                    <li><a class="popup" href="images/recommend/img02_L.jpg"><img src="images/recommend/img02.jpg"></a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="section05">
+            <div class="section-inner">
+                <h2>TOKYO STATION</h2>
+                <div id="map"></div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="http://vjs.zencdn.net/c/video.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv9UBEK1ZXUoSaycB5azXlRUGd1QKef4c"></script>
+<script src="js/jquery.colorbox-min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
